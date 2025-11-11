@@ -29,9 +29,9 @@ const Documentation = () => {
           </h2>
         </div>
 
-        <div className="grid lg:grid-cols-[60%_40%] gap-12 items-start">
+        <div className="grid lg:grid-cols-[60%_40%] gap-8 lg:gap-12 items-start">
           {/* Left: Photo Gallery */}
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {photos.map((photo, index) => (
               <div
                 key={index}
@@ -59,15 +59,15 @@ const Documentation = () => {
               >
                 <Play className="w-8 h-8 fill-current" />
               </Button>
-              <div className="absolute bottom-4 left-4 right-4 text-center">
-                <p className="text-lg font-bold text-text-dark bg-background/80 backdrop-blur-sm px-4 py-2 rounded-lg inline-block">
+              <div className="absolute bottom-4 left-4 right-4 text-center px-2">
+                <p className="text-sm sm:text-base lg:text-lg font-bold text-text-dark bg-background/80 backdrop-blur-sm px-3 sm:px-4 py-2 rounded-lg inline-block">
                   Dapat Job Part-Time dalam 3 Menit!
                 </p>
               </div>
             </div>
 
-            <div className="p-6 space-y-4">
-              <div className="flex items-center gap-4 text-sm text-muted-foreground">
+            <div className="p-4 sm:p-6 space-y-4">
+              <div className="flex flex-wrap items-center gap-3 sm:gap-4 text-xs sm:text-sm text-muted-foreground">
                 <span className="flex items-center gap-1">
                   <Eye className="w-4 h-4" />
                   25.8K views

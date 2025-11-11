@@ -17,13 +17,13 @@ const HeroSection = () => {
           {/* Left Content */}
           <div className="space-y-8 animate-fade-in-up">
             <div className="space-y-4">
-              <h1 className="text-5xl lg:text-6xl font-bold leading-tight">
+              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight">
                 Kerja Santai,{" "}
                 <span className="bg-gradient-to-r from-secondary via-primary to-accent bg-clip-text text-transparent">
                   Duit Nambah!
                 </span>
               </h1>
-              <p className="text-xl lg:text-2xl text-muted-foreground font-medium">
+              <p className="text-lg sm:text-xl lg:text-2xl text-muted-foreground font-medium">
                 Cari side hustle atau rekrut tim fleksibel — dalam 3 menit!
               </p>
             </div>
@@ -47,18 +47,18 @@ const HeroSection = () => {
             </div>
 
             {/* Stats */}
-            <div className="flex gap-8 pt-4">
+            <div className="flex flex-wrap gap-6 sm:gap-8 pt-4">
               <div>
-                <div className="text-3xl font-bold text-primary">10K+</div>
-                <div className="text-sm text-muted-foreground">Pekerja Aktif</div>
+                <div className="text-2xl sm:text-3xl font-bold text-primary">10K+</div>
+                <div className="text-xs sm:text-sm text-muted-foreground">Pekerja Aktif</div>
               </div>
               <div>
-                <div className="text-3xl font-bold text-secondary">500+</div>
-                <div className="text-sm text-muted-foreground">Perusahaan</div>
+                <div className="text-2xl sm:text-3xl font-bold text-secondary">500+</div>
+                <div className="text-xs sm:text-sm text-muted-foreground">Perusahaan</div>
               </div>
               <div>
-                <div className="text-3xl font-bold text-accent">5K+</div>
-                <div className="text-sm text-muted-foreground">Job Tersedia</div>
+                <div className="text-2xl sm:text-3xl font-bold text-accent">5K+</div>
+                <div className="text-xs sm:text-sm text-muted-foreground">Job Tersedia</div>
               </div>
             </div>
           </div>
